@@ -1,0 +1,20 @@
+<div class="navbar navbar-default">
+  <a class="navbar-brand" [routerLink]="['/']">Angular Testing</a>
+  <ul class="nav navbar-nav">
+    <li>
+      <a [routerLink]="['/']">Isolated Tests</a>
+    </li>   
+    <li>
+      <a [routerLink]="['/modelform']">Integration Tests</a>
+    </li>
+    <li>
+      <a [routerLink]="['/listing']">Component With Service</a>
+    </li>
+    <li>
+      <a [routerLink]="['/routerform']">Component With Router</a>
+    </li>
+  </ul>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,15 @@
+<h2>User Service</h2>
+<table class="table table-bordered">
+  <tr>
+    <th>SNo.</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Address</th>
+  </tr>
+  <tr *ngFor="let item of users;let i=index">
+    <td>{{i+1}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.email}}</td>
+    <td>{{item.address}}</td>
+  </tr>
+</table>
